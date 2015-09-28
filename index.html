@@ -43,25 +43,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script scr="js/map.js"></script> 
-    <script type="text/javascript" charset="utf-8">
-    $(window).load(function() {
-    $('.flexslider').flexslider();
-      });
-    </script>
-    <script>$(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-        }
-      }
-      });
-    });</script>
+ 
 
 
 
@@ -735,7 +717,25 @@
       </div>    
 
 
-
+         <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+    $('.flexslider').flexslider();
+      });
+    </script>
+    <script>$(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+        }
+      }
+      });
+    });</script>
 
       <script>
       $("#map-button").click(function(){
