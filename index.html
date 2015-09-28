@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>АнинБАР</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/wallop.css">
+    <link rel="stylesheet" href="css/slidebars.css">
+    <link href='https://fonts.googleapis.com/css?family=Tenor+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script scr="js/map.js"></script> 
+    <script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+
+
+
+
+
+            <script>$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});</script>
+
+
+
+<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+
+<script src="js/stickUp.min.js"></script>
+
+
+<script src="js/parallax.js"></script>
+
+
+<link rel="stylesheet" href="css/paper-collapse.css">
+<script src="js/paper-collapse.js"></script>
+
+
+<link rel="stylesheet" href="css/responsive-nav.css">
+<script src="js/responsive-nav.js"></script>
+
+<link rel="stylesheet" href="css/slicknav.css" />
+<script src="js/jquery.slicknav.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+
+  <body>
+
+
+    <div class="container-fluid">
+
+      <nav class="navbar">
+          <ul id="resp">
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#menu">Меню</a></li>
+            <li><a href="#event">События</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+            <li><a href="#team">Команда</a></li>
+          </ul>
+      </nav>
+
+
+    	<div class="row header">
+    		<div class="main-quote">
+    			<span class="large">Здесь был<span class="large-red"> Boiler Room</span>. Дважды.</span>
+    		  <span class="small">
+            У каждого есть несколько любимых баров - один для друзей, другой для себя, <br>
+            в третьем ему по душе выпивка, а в четвёртом он любит танцевать. <br>
+            Мы стараемся балансировать на этой тонкой грани, <br>
+            чтобы вы чувствовали себя отлично в любой компании.  
+          </span>
+          </div>
+        </div>
+
+       
+
+    	<div class="row" id="about">
+          <div class="logo row">
+    				  <img class="responsive" src="img/logo1.png">
+          </div>
+          <div class="row story">
+    				<p>Quisque ac sodales augue, eget semper nisl. Suspendisse pharetra scelerisque rutrum. Cras dictum congue quam quis finibus. Nam imperdiet vitae enim non gravida. Aenean aliquam enim a dolor mollis, a eleifend neque fermentum. In ac nulla et ante rutrum viverra. Quisque nisi justo, auctor eget sem quis, euismod eleifend quam.
+            Mauris fermentum euismod odio a consectetur. Nulla dictum sit amet massa sed fringilla. Phasellus interdum metus varius ultrices tincidunt. Nullam viverra neque elit, at consectetur lorem cursus vitae. Integer lacinia neque a eleifend sagittis. Morbi dignissim vulputate vehicula. Ma"prices sed ipsum aliquet, elementum libero at, laoreet nunc. Ut ornare in.
+            </p>
+          </div>
+          <div class="parallax-window" data-parallax="scroll" data-image-src="img/barbar-min.jpg"></div>
+        </div>
+
+
+
+
+
+        <div class="row center" id="menu">
+          <h1>Меню</h1>
+
+          <div class="col-md-6 food">
+            <span class="about-food">Donec pharetra tristique rutrum. Ut mauris tortor, aliquet quis augue id, ullamcorper porttitor velit. Nunc vestibulum luctus lacus id interdum. Vivamus mollis mi dolor, nec iaculis leo porta at. Ut tempor maximus posuere. Cras non sodales justo. Aenean interdum nisl eget dui efficitur elementum. </span>
+            <div class="collapse-card">
+              <div class="collapse-card__heading">
+                <div class="collapse-card__title">
+                  <i class="fa fa-plus fa-2x"></i><p>Крылья</p>
+                </div>
+              </div>
+              <div class="collapse-card__body">
+                 <div class="menu-block">
+                <div>
+                  <p class="menu-block-descr">Сервируются с домашним голубым сыром и палочками сельдерея.</p>
+                    <ul>
+                      <li> 
+                        <p>Десять штук<span class="price">10</span>
+                        </p>
+                      </li>
+                      <li>
+                        <p>Двадцать штук<span class="price">12</span>
+                        </p>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+              </div>
+              </div>
+
+             
+
+            <div class="collapse-card">
+              <div class="collapse-card__heading">
+                <div class="collapse-card__title">
+                  <i class="fa fa-plus fa-2x"></i><p>Бургеры</p>
+                </div>
+              </div>
+              <div class="collapse-card__body">
+                 <div class="menu-block">
+                <div>
+                    <p class="menu-block-descr">Все бургеры сервируются с свежими листьями салата, помидорами, красным луком и специалуточняйте степень прожарки бармену.</p>
+                    <ul>
+                      <li>
+                        <p>Классика<span class="price">10</span><br>
+                        <span class="consist">100% классический бургер.</span></p>
+                      </li>
+                      <li>
+                        <p>Чизбургер<span class="price">12</span></p>
+                      </li>
+                      <li>
+                        <p>Чикенбургер<span class="price">8</span><br>
+                        <span class="consist">Куриное филе на гриле</span></p>
+                      </li>
+                      <li>
+                        <p>Грибной бургер<span class="price">8</span><br>
+                        <span class="consist">Обжаренные во фритюре белые грибочки и козий сыр.</span></p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+                      
+            <div class="collapse-card">
+              <div class="collapse-card__heading">
+                <div class="collapse-card__title">
+                  <i class="fa fa-plus fa-2x"></i><p>Пицца</p>
+                </div>
+              </div>
+              <div class="collapse-card__body">
+                <div class="menu-block">
+                  <div>
+                    <ul>
+                      <li>
+                        <p>Маргарита<span class="price">10</span><br>
+                        <span class="consist">Томатный соус, моцарелла, веточки базилика, оливковое масло</span></p>
+                      </li>
+                      <li>
+                        <p>Горгонзола<span class="price">12</span><br>
+                        <span class="consist">Ветчина прошуто, молодой шпинат, чеснок, сыр Горгонзолла, оливки, Маскарпоне, телятина, Моцарелла, мускатный орех</span></p>
+                      </li>
+                      <li>
+                        <p>Ветчина и грибы<span class="price">8</span><br>
+                        <span class="consist">Чесночно-сметанный соус, ветчина на меду, сезонные грибы, Моцареллаs</span></p>
+                      </li>
+                      <li>
+                        <p>Американская<span class="price">8</span><br>
+                        <span class="consist">Томатный соус, Моцарелла, пеперони, чили</span></p>
+                      </li>
+                      <li>
+                        <p>Флоренция<span class="price">8</span><br>
+                        <spa  class="consist">Моцарелла, сметанный соус, Пармезан, молодой шпинат, яйцо </span></p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div class="collapse-card">
+              <div class="collapse-card__heading">
+                <div class="collapse-card__title">
+                  <i class="fa fa-plus fa-2x"></i><p>Пицца</p>
+                </div>
+              </div>
+              <div class="collapse-card__body">
+                <div class="menu-block">
+                  <div>
+                    <ul>
+                      <li>
+                        <p>Маргарита<span class="price">10</span><br>
+                        <span class="consist">Томатный соус, моцарелла, веточки базилика, оливковое масло</span></p>
+                      </li>
+                      <li>
+                        <p>Горгонзола<span class="price">12</span><br>
+                        <span  class="consist">Ветчина прошуто, молодой шпинат, чеснок, сыр Горгонзолла, оливки, Маскарпоне, телятина, Моцарелла, мускатный орех</span></p>
+                      </li>
+                      <li>
+                        <p>Ветчина и грибы<span class="price">8</span><br>
+                        <span class="consist">Чесночно-сметанный соус, ветчина на меду, сезонные грибы, Моцареллаs</span></p>
+                      </li>
+                      <li>
+                        <p>Американская<span class="price">8</span><br>
+                        <span class="consist">Томатный соус, Моцарелла, пеперони, чили</span></p>
+                      </li>
+                      <li>
+                        <p>Флоренция<span class="price">8</span><br>
+                        <span class="consist">Моцарелла, сметанный соус, Пармезан, молодой шпинат, яйцо </span></p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="collapse-card">
+              <div class="collapse-card__heading">
+                <div class="collapse-card__title">
+                  <i class="fa fa-plus fa-2x"></i><p>Пицца</p>
+                </div>
+              </div>
+              <div class="collapse-card__body">
+                <div class="menu-block">
+                  <div>
+                    <ul>
+                      <li>
+                        <p>Маргарита<span class="price">10</span><br>
+                        <span class="consist">Томатный соус, моцарелла, веточки базилика, оливковое масло</span></p>
+                      </li>
+                      <li>
+                        <p>Горгонзола<span class="price">12</span><br>
+                        <span class="consist">Ветчина прошуто, молодой шпинат, чеснок, сыр Горгонзолла, оливки, Маскарпоне, телятина, Моцарелла, мускатный орех</span></p>
+                      </li>
+                      <li>
+                        <p>Ветчина и грибы<span class="price">8</span><br>
+                        <span class="consist">Чесночно-сметанный соус, ветчина на меду, сезонные грибы, Моцареллаs</span></p>
+                      </li>
+                      <li>
+                        <p>Американская<span class="price">8</span><br>
+                        <span class="consist">Томатный соус, Моцарелла, пеперони, чили</span></p>
+                      </li>
+                      <li>
+                        <p>Флоренция<span class="price">8</span><br>
+                        <span class="consist">Моцарелла, сметанный соус, Пармезан, молодой шпинат, яйцо </span></p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div class="collapse-card">
+                <div class="collapse-card__heading">
+                <div class="collapse-card__title">
+                  <i class="fa fa-plus fa-2x"></i><p>Тарелки</p>
+                </div>
+              </div>
+              <div class="collapse-card__body">
+                <div class="menu-block">
+                  <div>
+                    <ul>
+                       <li>
+                     <p>Картошка фри<span class="price">10</span></p>
+                       </li>
+                       <li>
+                     <p>Ветчина и сыр во фритюре<span class="price">12</span></p>
+                       </li>
+                       <li>
+                     <p>Хамон<span class="price">8</span></p>
+                       </li>
+                       <li>
+                     <p>Луковые кольца<span class="price">8</span></p>
+                       </li>
+                       <li>
+                     <p>Чеснок во фритюре<span class="price">8</span></p>
+                       </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse-card">
+              <div class="collapse-card__heading">
+                <div class="collapse-card__title">
+                  <i class="fa fa-plus fa-2x"></i><p>Пиво</p>
+                </div>
+              </div>
+              <div class="collapse-card__body opened">
+                <div class="menu-block">
+                  <div>
+                    <ul>
+                      <li>
+                        <p>Pale Ale в английском стиле<span class="price">5,1% 150</span></p>
+                      </li>
+                      <li>
+                        <p>Овсяный стаут<span class="price">5,1% 140</span></p>
+                      </li>
+                      <li>
+                        <p>Мертвый пони<span class="price">4,2% 150</span></p>
+                      </li>
+                      <li>
+                        <p>Pale Ale в американском стиле<span class="price">5,0% 160</span></p>
+                      </li>
+                      <li>
+                        <p>Бруклин<span class="price">4,8% 160</span></p>
+                      </li>
+                      <li>
+                        <p>Тихий остров IPA<span class="price">5,9% 150</span></p>
+                      </li>
+                      <li>
+                        <p>Лагер в стиле Jaws<span class="price">5,6% 170</span></p>
+                      </li>
+                      <li>
+                        <p>Калифорнийский Pale Ale<span class="price">4,5% 170</span></p>
+                      </li>
+                      <li>
+                        <p>Индийский Pale Ale<span class="price">4,7% 170</span></p>
+                      </li>
+                      <li>
+                        <p>Английский браун<span class="price">5,9% 160</span></p>
+                      </li>
+                      <li>
+                        <p>Клубничное / Шоколадное<span class="price">3,8% 160</span></p>
+                      </li>
+                      <li>
+                        <p>Драй стаут<span class="price">6,2% 170</span></p>
+                      </li>
+                      <li>
+                        <p>Кокосовый портер<span class="price">8,6%  180</span></p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse-card">
+              <div class="collapse-card__heading">
+                <div class="collapse-card__title">
+                  <i class="fa fa-plus fa-2x"></i><p>Пиво</p>
+                </div>
+              </div>
+              <div class="collapse-card__body opened">
+                <div class="menu-block">
+                  <div>
+                    <ul>
+                      <li>
+                        <p>Pale Ale в английском стиле<span class="price">5,1% 150</span></p>
+                      </li>
+                      <li>
+                        <p>Овсяный стаут<span class="price">5,1% 140</span></p>
+                      </li>
+                      <li>
+                        <p>Мертвый пони<span class="price">4,2% 150</span></p>
+                      </li>
+                      <li>
+                        <p>Pale Ale в американском стиле<span class="price">5,0% 160</span></p>
+                      </li>
+                      <li>
+                        <p>Бруклин<span class="price">4,8% 160</span></p>
+                      </li>
+                      <li>
+                        <p>Тихий остров IPA<span class="price">5,9% 150</span></p>
+                      </li>
+                      <li>
+                        <p>Лагер в стиле Jaws<span class="price">5,6% 170</span></p>
+                      </li>
+                      <li>
+                        <p>Калифорнийский Pale Ale<span class="price">4,5% 170</span></p>
+                      </li>
+                      <li>
+                        <p>Индийский Pale Ale<span class="price">4,7% 170</span></p>
+                      </li>
+                      <li>
+                        <p>Английский браун<span class="price">5,9% 160</span></p>
+                      </li>
+                      <li>
+                        <p>Клубничное / Шоколадное<span class="price">3,8% 160</span></p>
+                      </li>
+                      <li>
+                        <p>Драй стаут<span class="price">6,2% 170</span></p>
+                      </li>
+                      <li>
+                        <p>Кокосовый портер<span class="price">8,6%  180</span></p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse-card">
+              <div class="collapse-card__heading">
+                <div class="collapse-card__title">
+                  <i class="fa fa-plus fa-2x"></i><p>Пиво</p>
+                </div>
+              </div>
+              <div class="collapse-card__body opened">
+                <div class="menu-block">
+                  <div>
+                    <ul>
+                      <li>
+                        <p>Pale Ale в английском стиле<span class="price">5,1% 150</span></p>
+                      </li>
+                      <li>
+                        <p>Овсяный стаут<span class="price">5,1% 140</span></p>
+                      </li>
+                      <li>
+                        <p>Мертвый пони<span class="price">4,2% 150</span></p>
+                      </li>
+                      <li>
+                        <p>Pale Ale в американском стиле<span class="price">5,0% 160</span></p>
+                      </li>
+                      <li>
+                        <p>Бруклин<span class="price">4,8% 160</span></p>
+                      </li>
+                      <li>
+                        <p>Тихий остров IPA<span class="price">5,9% 150</span></p>
+                      </li>
+                      <li>
+                        <p>Лагер в стиле Jaws<span class="price">5,6% 170</span></p>
+                      </li>
+                      <li>
+                        <p>Калифорнийский Pale Ale<span class="price">4,5% 170</span></p>
+                      </li>
+                      <li>
+                        <p>Индийский Pale Ale<span class="price">4,7% 170</span></p>
+                      </li>
+                      <li>
+                        <p>Английский браун<span class="price">5,9% 160</span></p>
+                      </li>
+                      <li>
+                        <p>Клубничное / Шоколадное<span class="price">3,8% 160</span></p>
+                      </li>
+                      <li>
+                        <p>Драй стаут<span class="price">6,2% 170</span></p>
+                      </li>
+                      <li>
+                        <p>Кокосовый портер<span class="price">8,6%  180</span></p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 slide">
+            <div class="flexslider">
+              <ul class="slides">
+                <li>
+                 <img src="img/drink1.jpg" />
+                </li>
+                <li>
+                  <img src="img/food1.jpg" />
+                </li>
+                <li>
+                  <img src="img/drink2.jpg" />
+                </li>
+                <li>
+                  <img src="img/food2.jpg" />
+                </li>
+              </ul>
+            </div>
+            <div class="quote">
+              <i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p>Мне интересно, даже до сих пор, смогу ли я? А сделаю ли я наш бар самым уютным местом в городе? А может у нас будет самая вкусная пицца? Или я наконец найду коктейль мечты? Вам решать.</p>
+              <i class="fa fa-quote-left fa-2x fa-rotate-180 fa-pull-right fa-border"></i>
+              <p class="sign">-Аня</p>
+            </div>
+          </div>
+        </div>
+
+
+  
+      <div class="row center" id="event">
+          <h1>Ближайшие события</h1>     
+            <div class="col-md-6 no-padding">
+              <div class="grid">
+                <figure class="effect-anna">
+                  <img src="img/bonobo.jpg" alt="img13"/>
+                  <figcaption>
+                    <h2>31.08 <span>Bonobo</span></h2>
+                    <p>Mauris fermentum euismod odio a consectetur. Nulla dictum sit amet massa sed fringilla. Phasellus interdum metus varius ultrices tincidunt. Nullam viverra neque elit, at consectetur lorem cursus vitae. Integer lacinia neque a eleifend sagittis.</p>
+                  </figcaption>           
+                </figure>
+              </div>
+            </div>
+            <div class="col-md-6 no-padding">
+              <div class="grid">
+                <figure class="effect-anna">
+                  <img src="img/kraviz.jpg" alt="img13"/>
+                    <figcaption>
+                      <h2>09.09 <span>Nina Kraviz</span></h2>
+                        <p>Suspendisse pharetra scelerisque rutrum. Cras dictum congue quam quis finibus. Nam imperdiet vitae enim non gravida. Aeneanaliquam enim a dolor mollis, a eleifend neque fermentum. In ac nulla et ante rutrum viverra. Quisque nisi justo, auctor eget sem quis, euismod eleifend quam.</p>
+                    </figcaption>           
+                </figure>
+              </div>
+          </div>
+        </div>
+
+
+
+        <div class="row quote center">
+          <i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p>Я всегда искал такое место, место где была бы хорошая и качественная музыка. Где люди бы понимали, что они пришли послушать. Я стараюсь воспитывать вкус нашей публики, и привозить тлько хороших музыкантов. Иногда даже сам встаю за вертушки, потому, что я люблю хорошую музыку.</p>
+          <p class="sign">-Максим<i class="fa fa-quote-left fa-2x fa-rotate-180 fa-pull-right fa-border"></i></p>
+        </div>
+
+           
+
+
+          
+      <div class="row center" id="contacts">
+        <h1>Контакты</h1>
+          <div class="row info-map">
+            <div id="info">
+              <div class="info-text">
+                 <p><i class="fa fa-map-marker fa-lg"></i> Екатеринбург, Пушкина 11, вход со двора</p>
+                 <p><i class="fa fa-clock-o fa-lg"></i> ПН-СР 16:00 - 02:00, ЧТ-ВС 20:00 - 08:00</p>
+                 <p><i class="fa fa-phone fa-lg"></i> тел. +7 922 193 1053</p>
+                 <p><i class="fa fa-envelope-o fa-lg"></i> Напишите нам</p>
+               </div>
+                <button id="map-button" class="btn btn-1 btn-a">Показать на карте</button>
+            </div>
+            
+            <div id="map"><script src='https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js'></script>      
+              <script> 
+                  google.maps.event.addDomListener(window, 'load', init);
+                  var map;
+                  function init() {
+                      var mapOptions = {
+                          center: new google.maps.LatLng(56.83767,60.608199),
+                          zoom: 16,
+                          zoomControl: true,
+                          zoomControlOptions: {
+                              style: google.maps.ZoomControlStyle.DEFAULT,
+                          },
+                          disableDoubleClickZoom: true,
+                          mapTypeControl: false,
+                          scaleControl: true,
+                          scrollwheel: false,
+                          panControl: true,
+                          streetViewControl: false,
+                          draggable : true,
+                          overviewMapControl: true,
+                          overviewMapControlOptions: {
+                              opened: false,
+                          },
+                          mapTypeId: google.maps.MapTypeId.ROADMAP,
+                          styles: [
+                  {
+                      "featureType": "all",
+                      "elementType": "geometry.fill",
+                      "stylers": [
+                          {
+                              "color": "#8e8e8e"
+                          }
+                      ]
+                  },
+                  {
+                      "featureType": "administrative",
+                      "elementType": "geometry",
+                      "stylers": [
+                          {
+                              "visibility": "off"
+                          }
+                      ]
+                  },
+                  {
+                      "featureType": "administrative",
+                      "elementType": "labels.text",
+                      "stylers": [
+                          {
+                              "visibility": "on"
+                          }
+                      ]
+                  },
+                  {
+                      "featureType": "landscape.man_made",
+                      "elementType": "geometry",
+                      "stylers": [
+                          {
+                              "visibility": "off"
+                          },
+                          {
+                              "color": "#ddd5d5"
+                          }
+                      ]
+                  },
+                  {
+                      "featureType": "landscape.natural",
+                      "elementType": "geometry",
+                      "stylers": [
+                          {
+                              "color": "#cacaca"
+                          }
+                      ]
+                  },
+                  {
+                      "featureType": "poi",
+                      "elementType": "labels.icon",
+                      "stylers": [
+                          {
+                              "visibility": "off"
+                          }
+                      ]
+                  },
+                  {
+                      "featureType": "road",
+                      "elementType": "geometry.fill",
+                      "stylers": [
+                          {
+                              "color": "#ffffff"
+                          }
+                      ]
+                  },
+                  {
+                      "featureType": "road",
+                      "elementType": "geometry.stroke",
+                      "stylers": [
+                          {
+                              "gamma": 7.18
+                          }
+                      ]
+                  },
+                  {
+                      "featureType": "road",
+                      "elementType": "labels.icon",
+                      "stylers": [
+                          {
+                              "visibility": "off"
+                          }
+                      ]
+                  },
+                  {
+                      "featureType": "road.local",
+                      "elementType": "labels.text",
+                      "stylers": [
+                          {
+                              "visibility": "on"
+                          }
+                      ]
+                  },
+                  {
+                      "featureType": "transit.line",
+                      "elementType": "geometry",
+                      "stylers": [
+                          {
+                              "gamma": 0.48
+                          },
+                          {
+                              "visibility": "off"
+                          }
+                      ]
+                  },
+                  {
+                      "featureType": "transit.station",
+                      "elementType": "labels.icon",
+                      "stylers": [
+                          {
+                              "visibility": "off"
+                          }
+                      ]
+                  },
+                  {
+                      "featureType": "water",
+                      "elementType": "all",
+                      "stylers": [
+                          {
+                              "color": "#bf2333"
+                          }
+                      ]
+                  }
+              ],
+                      }
+                      var mapElement = document.getElementById('map');
+                      var map = new google.maps.Map(mapElement, mapOptions);
+                      var locations = [
+              ['ANINBAR', 'undefined', 'undefined', 'undefined', 'undefined', 56.837692,  60.608017, 'img/letblack.png']
+                      ];
+                      for (i = 0; i < locations.length; i++) {
+                    if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
+                    if (locations[i][2] =='undefined'){ telephone ='';} else { telephone = locations[i][2];}
+                    if (locations[i][3] =='undefined'){ email ='';} else { email = locations[i][3];}
+                         if (locations[i][4] =='undefined'){ web ='';} else { web = locations[i][4];}
+                         if (locations[i][7] =='undefined'){ markericon ='';} else { markericon = locations[i][7];}
+                          marker = new google.maps.Marker({
+                              icon: markericon,
+                              position: new google.maps.LatLng(locations[i][5], locations[i][6]),
+                              map: map,
+                              title: locations[i][0],
+                              desc: description,
+                              tel: telephone,
+                              email: email,
+                              web: web
+                          });
+              link = '';     }}
+                  </script>
+
+            </div>
+          </div>
+        </div>
+
+      <div class="row center" id="team">
+        <h1>Команда</h1>
+        <div class="row pic">
+          <img class="responsive" src="img/kiss.jpg">
+        </div>
+        <div class="row work">
+          <h5>Работа с нами</h5>
+          <p>Мы всегда в поиске весёлых, активных людей. Людей умелых, полных свежих идей и всегда открытых чему-то новому.
+          Если вы хотите стать частью нашей команды, напишите нам makidream@gmail.com (Опыт не обязателен!)</p>
+        </div>
+      </div>
+    
+
+      <div class="row footer center">
+        <div class="resume col-md-8">
+          <p>К сожалению это сайт выдуманного бара. Но если вам понравилось вы можете взять меня на работу, и я, построив карьеру, наконец-то сделаю этот бар реальностью. Я создам стартап, затем следующий (он возможно провалится в отличие от первого), закрою ипотеку, куплю машину, буду путешествовать дважды в год. И  никогда не забуду своего первого работодателя. Того человека который дал мне шанс, помог сделать первый шаг на этом пути.</p>
+        </div>
+        <div class="social col-md-4">
+          <div class="soc-buttons">
+            <a href="" class="social-button"><i class="fa fa-vk fa-3x"></i></a>
+            <a href="" class="social-button"><i class="fa fa-envelope-o fa-3x"></i></a>
+            <a href="" class="social-button"><i class="fa fa-rub fa-3x"></i></a>
+          </div>
+        </div>
+      </div>    
+
+
+
+
+      <script>
+      $("#map-button").click(function(){
+        $("#info").css('z-index', -2000)('position', 'relative');
+        $("#map").css('position', 'absolute');
+      });
+      </script>          
+
+      <script>$(function () {
+      $('.collapse-card').paperCollapse()
+      })
+      </script>
+
+    
+
+<script>
+  $(function(){
+    $('#resp').slicknav();
+  });
+</script>
+
+  </body>
+</html>
+
