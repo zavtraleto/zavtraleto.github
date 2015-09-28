@@ -57,7 +57,7 @@ p{
 }
 
 @media screen and (max-width: 40em) {
-	/* #menu is the original menu */
+	
 	.js #menu {
 		display:none;
 	}
@@ -102,6 +102,15 @@ p{
 	line-height: 1.5;
 	letter-spacing: 1px;
 	display: block;
+}
+
+@media screen and (max-width: 770px) {
+	
+	.main-quote{
+	margin:auto;
+	margin-top: 30rem;
+	padding: 0px 120px 0px 120px;
+}
 }
 
 #about{
