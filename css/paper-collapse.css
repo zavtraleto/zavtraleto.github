@@ -13,18 +13,13 @@
   box-sizing: border-box;
 }
 
-
-
 .collapse-card__heading {
   cursor: pointer;
-
   position: relative;
   border-bottom: 2px solid #BF2333;
   background-color: #F2EFE9;
 
 }
-
-
 
 .collapse-card__heading active{
   border:none;
@@ -34,9 +29,11 @@
   content: " ";
   display: table;
 }
+
 .collapse-card__heading:after {
   clear: both;
 }
+
 .collapse-card__heading i {
   float: right;
   padding: 5px 0px 10px 10px;
