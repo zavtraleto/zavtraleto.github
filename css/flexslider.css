@@ -288,3 +288,12 @@ html[xmlns] .flexslider .slides {
     right: 10px;
   }
 }
+
+@media (max-width: 480px){
+  .flexslider{
+    margin: 0px;
+  }
+  .flex-direction-nav a {
+    width: 20px;
+    height: 20px;}
+}

@@ -62,11 +62,21 @@
 .collapse-card__title p{
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 3em;
 }
 
 .collapse-card__body {
   padding-top: 15px;
   display: none;
   background-color: #F2EFE9;
+}
+
+
+@media (max-width: 480px){
+  .collapse-card__title p {
+    font-size: 2em;
+}
+  .collapse-card__heading i {
+    padding: 0px;
+}
 }
