@@ -1,0 +1,9 @@
+{
+  "name": "aninbar",
+  "version": "0.0.89",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-uncss": "^0.4.3"
+  }
+}
