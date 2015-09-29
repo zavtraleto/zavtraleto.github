@@ -1,7 +1,11 @@
-@font-face{
-	font-family: "BebasNeueBook";
-	src: url('fonts/BebasNeueBook.otf');
-}
+@font-face {
+	font-family: 'BebasNeueBook';
+	src: url('BebasNeueBook.eot?#iefix') format('embedded-opentype'), 
+	     url('BebasNeueBook.woff') format('woff'), 
+	     url('BebasNeueBook.ttf')  format('truetype'),
+	     url('BebasNeueBook.svg#svgBebasNeueBook') format('svg');
+	}
+
 
 a{
 	text-decoration: none;
