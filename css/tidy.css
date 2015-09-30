@@ -72,10 +72,10 @@ p{margin:none;}
 .navbar ul li a{text-decoration:none;color:white;}
 .navbar ul li a:hover{text-decoration:none;color:#BF2333;}
 .header{background:url('../img/party.jpg') no-repeat right center fixed;background-size:cover;min-height:100vh;}
-.main-quote{margin:auto;margin-top:40rem;padding:0px 120px 0px 120px;}
-.large{font-family:"BebasNeueBook";font-size:5em;color:#ffffff;letter-spacing:3px;display:block;}
+.main-quote{margin:auto;/*margin-top:40rem;*/padding:0px 20px 0px 20px;position:absolute;bottom:20px;left:20px;}
+.large{font-family:"BebasNeueBook";font-size:5em;color:#ffffff;letter-spacing:3px;display:block;text-shadow: 1px 1px 2px #000, 0 0 1em #000;}
 .large-red{color:#BF2333;}
-.small{font-family:"BebasNeueBook", sans-serif;font-size:1.2em;color:#fff;line-height:1.5;letter-spacing:1px;display:block;}
+.small{font-family:"BebasNeueBook", sans-serif;font-size:1.2em;color:#fff;line-height:1.5;letter-spacing:1px;display:block;text-shadow: 1px 1px 2px #000, 0 0 0.8em #000;}
 #about{min-height:100vh;}
 .logo{padding-top:100px;}
 .logo img{width:80%;display:block;margin:auto;}
@@ -104,7 +104,7 @@ p{margin:none;}
 .grid figure figcaption{color:#fff;text-transform:none;font-size:1.25em;-webkit-backface-visibility:hidden;backface-visibility:hidden;}
 .grid figure figcaption h2{font-family:BebasNeueBook;font-size:3em;letter-spacing:2px;padding-left:20px;}
 .grid figure figcaption h2 span{font-family:BebasNeueBook;font-size:0.5em;letter-spacing:2px;}
-.grid figure figcaption p{font-family:'PT Sans Narrow', sans-serif;font-size:1.5em;padding:20px;}
+.grid figure figcaption p{font-family:'Playfair Display', sans-serif;font-size:1.2em;padding:20px;}
 .grid figure figcaption::before,
 .grid figure figcaption::after{pointer-events:none;}
 .grid figure figcaption{position:absolute;top:0;left:0;width:100%;height:100%;}
@@ -120,7 +120,7 @@ figure.effect-anna:hover p{opacity:1;-webkit-transform:translate3d(0,0,0);transf
 #contacts h1{font-family:BebasNeueBook;text-align:center;font-size:5em;color:#000;padding-top:50px;}
 .info-map{height:500px;position:relative;max-width:1080px;margin:0 auto;display:block;}
 #info{z-index:1000;position:absolute;margin:auto;top:0;left:0;bottom:0;right:0;background-color:rgba(255, 255, 255, 0.95);}
-.info-text{text-align:center;font-family:'PT Sans Narrow', sans-serif;font-size:1.4em;padding:80px 0 0 0;color:#000;}
+.info-text{text-align:center;font-family:'Playfair Display', serif;font-size:1.4em;padding:80px 0 0 0;color:#000;}
 .info-text a{text-decoration:none;color:#000;}
 .info-text a:hover{text-decoration:none;color:#BF2333;}
 #map{z-index:100;height:99.9%;width:100%;padding:30px 120px;}
@@ -133,12 +133,12 @@ figure.effect-anna:hover p{opacity:1;-webkit-transform:translate3d(0,0,0);transf
 .pic img{padding:20px 0;display:block;margin:0 auto;width:100%;}
 #team{background-color:#F2EFE9;margin-top:50px;}
 #team h1{font-family:BebasNeueBook;text-align:center;font-size:5em;color:#000;padding-top:50px;}
-.work h5{font-family:'PT Sans Narrow', sans-serif;font-size:1.5em;text-align:center;}
-.work p{font-family:'PT Sans Narrow', sans-serif;font-size:1.2em;text-align:center;}
+.work h5{font-family:'Playfair Display', serif;font-size:1.5em;text-align:center;}
+.work p{font-family:'Playfair Display', serif;font-size:1.2em;text-align:center;}
 .work a{text-decoration:none;color:#000;}
 .work a:hover{color:#BF2333;}
 .work{padding:20px 0px 50px 0px;}
-.resume{font-family:'PT Sans Narrow', sans-serif;font-size:1.2em;}
+.resume{font-family:'Playfair Display', serif;font-size:1em;}
 .soc-buttons{text-align:center;}
 .social{display:block;margin:0 auto;padding:40px 0px 40px 0px;}
 .soc-buttons a{margin:10px;}
@@ -163,10 +163,8 @@ figure.effect-anna:hover p{opacity:1;-webkit-transform:translate3d(0,0,0);transf
 .about-food{font-size:1.1em;}
 .parallax-window{min-height:300px;}
 }
-@media (max-width:480px){.large{font-size:4em;}
-.small{font-size:1.1em;}
-.main-quote{margin-top:40rem;padding:0px 20px 0px 20px;}
-.main-quote{margin-top:20rem;padding:0px 10px 0px 10px;}
+@media (max-width:480px){
+.main-quote{padding:0px 10px 0px 10px;position: absolute; bottom:5px; left:5px;}
 .large{font-size:3em;}
 .small{font-size:1em;}
 .logo img{width:95%;display:block;margin:auto;}
@@ -185,7 +183,7 @@ figure.effect-anna:hover p{opacity:1;-webkit-transform:translate3d(0,0,0);transf
 #event{padding:0px;}
 #event h1{font-size:4em;}
 .grid figure figcaption h2{font-size:2em;letter-spacing:2px;padding-left:10px;}
-.grid figure figcaption p{font-size:0.9em;padding:5px;}
+.grid figure figcaption p{font-size:0.8em;padding:5px;}
 #contacts h1{font-size:4em;padding:0px;}
 .info-text{font-size:1.2em;padding:60px 0 0 0;}
 #team{margin:0px;}
@@ -235,8 +233,6 @@ figure.effect-anna:hover p{opacity:1;-webkit-transform:translate3d(0,0,0);transf
 .fa-phone:before{content:"\f095";}
 .fa-rub:before{content:"\f158";}
 .fa-vk:before{content:"\f189";}
-@font-face{font-family:'PT Sans Narrow';font-style:normal;font-weight:400;src:local('PT Sans Narrow'), local('PTSans-Narrow'), url(https://fonts.gstatic.com/s/ptsansnarrow/v7/UyYrYy3ltEffJV9QueSi4aUdwd0g3YZvPtKezrP11hs.ttf) format('truetype');}
-@font-face{font-family:'PT Sans Narrow';font-style:normal;font-weight:700;src:local('PT Sans Narrow Bold'), local('PTSans-NarrowBold'), url(https://fonts.gstatic.com/s/ptsansnarrow/v7/Q_pTky3Sc3ubRibGToTAYm8hADVPt2198XJ0mRNwYBw.ttf) format('truetype');}
 @font-face{font-family:'Playfair Display';font-style:normal;font-weight:400;src:local('Playfair Display'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v10/2NBgzUtEeyB-Xtpr9bm1CWZnlQD8ZbpFpSCZiMIxKOo.ttf) format('truetype');}
 @font-face{font-family:'Playfair Display';font-style:normal;font-weight:700;src:local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url(https://fonts.gstatic.com/s/playfairdisplay/v10/UC3ZEjagJi85gF9qFaBgIDONxQZiwIZvp-nclb-uDMM.ttf) format('truetype');}
 @font-face{font-family:'Roboto Slab';font-style:normal;font-weight:100;src:local('Roboto Slab Thin'), local('RobotoSlab-Thin'), url(https://fonts.gstatic.com/s/robotoslab/v6/MEz38VLIFL-t46JUtkIEgChUP3wUvlDf6Dug29a7Mvo.ttf) format('truetype');}
