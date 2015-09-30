@@ -59,10 +59,10 @@ ul{margin-top:0;margin-bottom:10px;}
 .row:after{content:" ";display:table;}
 .container-fluid:after,
 .row:after{clear:both;}
-@font-face{font-family:'BebasNeueBook';src:url('BebasNeueBook.eot?#iefix') format('embedded-opentype'),
-url('BebasNeueBook.woff') format('woff'),
-url('BebasNeueBook.ttf') format('truetype'),
-url('BebasNeueBook.svg#svgBebasNeueBook') format('svg');}
+@font-face{font-family:'BebasNeueBook';src:url('fonts/BebasNeueBook.eot?#iefix') format('embedded-opentype'),
+url('fonts/BebasNeueBook.woff') format('woff'),
+url('fonts/BebasNeueBook.ttf') format('truetype'),
+url('fonts/BebasNeueBook.svg#svgBebasNeueBook') format('svg');}
 a{text-decoration:none;}
 p{margin:none;}
 .center{max-width:1080px;display:block;margin:0 auto;}
