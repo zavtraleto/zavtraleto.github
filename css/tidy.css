@@ -82,6 +82,7 @@ p{margin:none;}
 .story{padding:80px;}
 .story p{font-family:'Playfair Display', serif;font-size:1.4em;color:#000000;text-align:center;}
 .parallax-window{min-height:400px;background:transparent;}
+.parallax-mirror{width:100%;}
 #menu{background-color:#fff;padding:50px 0px;background-color:#F2EFE9;margin-bottom:40px;}
 #menu h1{text-align:center;font-family:BebasNeueBook;font-size:5em;color:#000;line-height:100px;}
 .food{padding:20px;}
@@ -153,20 +154,24 @@ figure.effect-anna:hover p{opacity:1;-webkit-transform:translate3d(0,0,0);transf
 .parallax-window{min-height:350px;}
 }
 @media (max-width:767px){.navbar{display:none;}
-.logo{padding-top:20px;}
+.logo{padding-top:30px;}
 .logo img{width:95%;display:block;margin:auto;}
-.story{padding:20px;}
+.story{padding:40px;}
 .story p{font-size:1.2em;}
-#menu{padding:20px 0px;margin-bottom:20px;}
+#menu{padding:40px 0px;margin-bottom:20px;}
 .food{padding:10px;}
 .slide{padding:10px;}
 .about-food{font-size:1.1em;}
 .parallax-window{min-height:300px;}
+#event{padding-top:40px;}
+#contacts{padding-top:40px;}
+#team{padding-top:40px;}
 }
 @media (max-width:480px){
 .main-quote{padding:0px 10px 0px 10px;position: absolute; bottom:5px; left:5px;}
 .large{font-size:3em;}
 .small{font-size:1em;}
+.about{padding-top: 10px;}
 .logo img{width:95%;display:block;margin:auto;}
 .story{padding:10px;}
 .story p{font-size:1em;text-align:left;}
@@ -180,12 +185,11 @@ figure.effect-anna:hover p{opacity:1;-webkit-transform:translate3d(0,0,0);transf
 .menu-block-descr{margin:0px 0px 0px 40px;font-size:0.9em;}
 .quote{padding:20px 10px;}
 .quote p{font-size:1em;line-height:1.3;}
-#event{padding:0px;}
 #event h1{font-size:4em;}
 .grid figure figcaption h2{font-size:2em;letter-spacing:2px;padding-left:10px;}
 .grid figure figcaption p{font-size:0.8em;padding:5px;}
 #contacts h1{font-size:4em;padding:0px;}
-.info-text{font-size:1.2em;padding:60px 0 0 0;}
+.info-text{font-size:1em;padding:60px 0 0 0;}
 #team{margin:0px;}
 #team h1{font-size:4em;padding-top:20px;}
 .pic img{padding-bottom:20px;}
