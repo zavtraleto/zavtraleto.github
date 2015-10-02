@@ -71,7 +71,10 @@ p{margin:none;}
 .navbar ul li{display:inline-block;margin:20px 20px;font-family:BebasNeueBook;font-size:1.5em;}
 .navbar ul li a{text-decoration:none;color:white;}
 .navbar ul li a:hover{text-decoration:none;color:#BF2333;}
-.header{background:url('../img/party.jpg') no-repeat right center fixed;background-size:cover;min-height:100vh;}
+.header{background:url('../img/party.jpg') no-repeat right center fixed;min-height:100vh;-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
 .main-quote{margin:auto;/*margin-top:40rem;*/padding:0px 20px 0px 20px;position:absolute;bottom:20px;left:20px;}
 .large{font-family:"BebasNeueBook";font-size:5em;color:#ffffff;letter-spacing:3px;display:block;text-shadow: 1px 1px 2px #000, 0 0 1em #000;}
 .large-red{color:#BF2333;}
